@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "aiohttp>=3.8", "attrs>=22.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bluearchive"
+version = "1.0.0"
+authors = [
+    { name = "Lapis0875", email = "lapis0875@gmail.com" }
+]
+description = "Wrapper of Blue Archive unofficial API 'BlueArchiveAPI'"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Github Repository" = "https://github.com/Lapis0875/BlueArchiveAPIWrapper"
+"Bug Tracker" = "https://github.com/Lapis0875/BlueArchiveAPIWrapper/issues"
